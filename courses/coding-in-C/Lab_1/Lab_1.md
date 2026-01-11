@@ -149,10 +149,14 @@ gcc helloWorld.c -o helloWorld.o
 
 ### Using VSCode to build and run
 1. Open your file "helloWorld.c" in VSCode and click on the icon on the top right corner called "Debug or Run".
-![Image of the icon in VSCode](/Lab_1/runCFileInVSCode.png)
+
+![Image of the icon in VSCode](https://github.com/christian-braunagel/study-code/blob/main/courses/coding-in-C/Lab_1/runCFileInVSCode.png)
+
 2. Select the option "Run C/C++ file".
    * Note: A drop down window on the top of VSCode might occur, asking to select the debug configuration. If so, select the C/C++: gcc.exe
-   ![Image of compiler selection drop down menu in VSCode](/Lab_1/selectCompiler.png)
+
+   ![Image of compiler selection drop down menu in VSCode](https://github.com/christian-braunagel/study-code/blob/main/courses/coding-in-C/Lab_1/selectCompiler.png)
+
 3. Give it some seconds.
 4. If everything works, it should print out the words "Hello World" (or whatever you coded into your c-file) on your terminal.
 5. In case you get some errors of unknown paths/compiler usage or if there are some red, curly lines below ``` #include <stdio.h> ```, you might need to set the correct compiler configuration.
