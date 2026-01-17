@@ -41,3 +41,51 @@ Your program must:
 
 Create a flow chart for the programm developed in Section I.
 You can use [draw.io](https://www.drawio.com/) as a free tool to create the flow chart.
+
+## Section III: Chessboard with Border and Alternating Fields
+
+### Task Description
+
+Extend the program from **Section I** so that the chessboard is printed as a **graphical board with borders**, labels, and a **correctly alternating field pattern**, similar to a real chessboard.
+
+Instead of printing only the coordinates, your program shall visualize the board using ASCII characters.
+
+The output must include:
+
+- a surrounding grid made of `+`, `-`, and `|`
+- file labels (`A` to `H`) printed **above and below** the board
+- rank labels (`8` to `1`) printed **on the left and right** of each row
+- a visual representation of the fields using characters (e.g. `###` for dark squares and spaces for light squares)
+- a **checkerboard pattern**, where field colors alternate:
+  - horizontally within a row
+  - vertically from one row to the next
+
+A schematic example of the intended structure:
+
+![Image of final output for Section III](https://github.com/christian-braunagel/study-code/blob/main/courses/coding-in-C/Lab_2/schematic.png)
+
+
+(The exact characters and spacing must match your implementation.)
+
+### Requirements
+
+Your program must:
+
+- not hard-code any rows, columns, or fields
+- print rank numbers on **both the left and right side** of the board
+- print file letters **above and below** the board
+- visually distinguish light and dark squares
+- ensure that the field pattern alternates correctly
+- use constants (e.g. board size) where appropriate
+
+The purpose of this task is to practice:
+
+- nested loop logic
+- conditional statements
+- formatted output with `printf`
+- translating a conceptual model (chessboard) into structured program output
+
+### Hint (Optional)
+
+Think about how the **row index and column index together** can be used to decide whether a field is light or dark.
+
