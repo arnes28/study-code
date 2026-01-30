@@ -62,5 +62,10 @@ int main()
 
     printf("The result of %.2f %c %.2f = %.2f\n", num1, operation, num2, result);
 
+    int c;
+    while ((c = getchar()) != '\n' && c != EOF)
+        ;
+    getchar();
+
     return 0;
 }
