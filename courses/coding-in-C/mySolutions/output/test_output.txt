@@ -1,0 +1,4 @@
+Line 1: Using fprintf
+Number: 42, Float: 3.14
+Line 2: Using fputs
+A
